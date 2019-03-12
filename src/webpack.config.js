@@ -22,10 +22,10 @@ module.exports = {
       less: path.join(__dirname, "less")
     }
   },
-  // plugins: [
-  //   new webpack.ProvidePlugin({
-  //     $: 'jquery'
-  //   })
-  // ]
+  plugins: [
+    new webpack.ProvidePlugin({
+      $: 'jquery'
+    })
+  ]
 }
 
